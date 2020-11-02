@@ -62,6 +62,8 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style></head><body><div class="ui fluid container" id="neuron-theme-default-teal"><nav class="top-menu"><div class="ui inverted compact neuron icon menu teal"><a class="left item" href="." title="Home"><i class="home icon"></i></a><a class="left item" href="search.html" title="Search Zettels"><i class="search icon"></i></a><a class="center item" href="https://github.com/srid/neuron-template/edit/master/e6b7b5b0.md" title="Edit this Zettel"><i class="edit icon"></i></a><a class="right item" href="z-index.html" title="All Zettels (z-index)"><i class="tree icon"></i></a></div></nav><div class="ui text container" id="zettel-container" style="position: relative"><div id="zettel-container-anchor" style="position: absolute; top: -24px; left: 0"></div><div class="zettel-view"><article class="ui raised attached segment zettel-content"><div class="pandoc"><h1 id="e6b7b5b0">e6b7b5b0</h1><p>installation steps for itext7 in powershell with nuget</p><div class="pandoc-code nosyntax"><pre><code>#follow the order to avoid dependency loop 
 
+Install-Package -name Portable.BouncyCastle -Source &#39;https://www.nuget.org/api/v2&#39; -ProviderName NuGet -RequiredVersion &#39;1.8.8&#39; 
+
 Install-Package -name Common.Logging.Core -Source &#39;https://www.nuget.org/api/v2&#39; -ProviderName NuGet -RequiredVersion &#39;3.4.1&#39; 
 
 Install-Package -name Common.Logging -Source &#39;https://www.nuget.org/api/v2&#39; -ProviderName NuGet -RequiredVersion &#39;3.4.1&#39; 
